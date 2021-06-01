@@ -22,8 +22,8 @@ public class Area {
     //@JoinColumn(nullable = false)
     private String description;
 
-    @OneToMany(mappedBy = "area")
-    private List<Reserve> reserves;
+    /*@OneToMany(mappedBy = "area")
+    private List<Reserve> reserves;*/
 
 
 }

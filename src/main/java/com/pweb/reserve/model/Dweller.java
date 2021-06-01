@@ -24,6 +24,6 @@ public class Dweller {
     //@JoinColumn(nullable = false)
     private boolean is_adm;
 
-    @OneToMany(mappedBy = "dweller")
-    private List<Reserve> reserves;
+    /*@OneToMany(mappedBy = "dweller")
+    private List<Reserve> reserves;*/
 }

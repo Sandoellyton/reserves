@@ -14,14 +14,19 @@ public class Reserve {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    private Long id_area;
+
+    private Long apartment;
+
+    /*@ManyToOne
     private Dweller dweller;
 
     @ManyToOne
-    private Area area;
+    private Area area;*/
 
     //@JoinColumn(nullable = false)
-    @JsonFormat(pattern = "dd-MM-yyyy", shape = JsonFormat.Shape.STRING)
-    private LocalDate date;
+    //@JsonFormat(pattern = "dd-MM-yyyy", shape = JsonFormat.Shape.STRING)
+    //private LocalDate date;
+    private String date;
 
 }
